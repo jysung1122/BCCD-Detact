@@ -32,7 +32,8 @@ YOLOV5
 
 ## 2. 데이터세트 준비 과정
   10. myGlob.py를 만듭니다. 내용은 colab에 있던 2개의 셀을 복사해오고 폴더 위치만 맞춥니다.
-      *yolov5 폴더 내부에 dataSet 폴더를 만들어 roboflow에서 받아온 zip파일을 압축해제하고 풀어놓음
+
+      **yolov5 폴더 내부에 dataSet 폴더를 만들어 roboflow에서 받아온 zip파일을 압축해제하고 풀어놓음**
 
 ```
 # C:\Users\WSU\Desktop\CODE\BCCD\yolov5\dataSet\myGlob.py
