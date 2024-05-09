@@ -50,3 +50,14 @@ if len(train_img_list) > 0 :
     with open('C:/Users/WSU/Desktop/CODE/BCCD/yolov5/dataSet/val.txt','w') as f:
         f.write('\n'.join(valid_img_list) + '\n')
 ```
+
+  11. data.yaml을 수정합니다. : 폴더경로만 수정
+
+```
+train: C:/Users/WSU/Desktop/CODE/BCCD/yolov5/dataSet/train/images
+val: C:/Users/WSU/Desktop/CODE/BCCD/yolov5/dataSet/valid/images
+
+nc: 3
+names: ["Platelets", "RBC", "WBC"]
+
+```
