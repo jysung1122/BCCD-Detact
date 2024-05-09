@@ -28,6 +28,7 @@ YOLOV5
   9. pip install -r requirements.txt
   10. myGlob.py를 만듭니다. 내용은 colab에 있던 2개의 셀을 복사해오고 폴더 위치만 맞춥니다.
 ```
+C:\Users\WSU\Desktop\CODE\BCCD\yolov5\dataSet\myGlob.py
 # 여기서 주의할 것은 데이터 셋의 위치를 잘 맞추기
 # 실행하는 폴더에 따라서 상대 경로가 달라지므로
 # 절대 경로를 쓰는 것도 괜찮음
