@@ -71,7 +71,7 @@ names: ["Platelets", "RBC", "WBC"]
   12. custom_yolov5s.yaml을 ./models/yolov5s.yaml을 복사해서 사용하고 nc : 80을 nc : 3 으로 수정 (데이터세트의nc를 기준)
 
 ```
-# C:\Users\WSU\Desktop\CODE\BCCD\yolov5\models\custom_yolov5.yaml
+# C:\Users\WSU\Desktop\CODE\BCCD\yolov5\models\custom_yolov5s.yaml
 # YOLOv5 🚀 by Ultralytics, AGPL-3.0 license
 
 # Parameters
