@@ -1,5 +1,5 @@
 # BCCD-Detact
-혈소판,적혈구,백혈구를 판별
+혈소판, 적혈구, 백혈구를 판별
 
 ## Location of dataSet
 https://public.roboflow.com/object-detection/bccd
