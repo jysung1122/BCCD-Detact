@@ -146,6 +146,7 @@ head: [
 
      ```
      (yolov5) c:\Users\WSU\Desktop\CODE\BCCD>cd yolov5
+     
      (yolov5) c:\Users\WSU\Desktop\CODE\BCCD\yolov5>python train.py --img 512 --batch 16 --epochs 100 --data ./dataSet/data.yaml --cfg ./models/custom_yolov5s.yaml --weights '' --name _result --cache    
      ```
 ### 학습이 완료되면
