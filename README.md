@@ -16,7 +16,7 @@ https://public.roboflow.com/object-detection/bccd
 ### 모델
 YOLOV5
 
-## 순서
+## 1. 모델 가져오고 환경 구축
   1. 폴더를 만듭니다. : C:\Users\WSU\Desktop\CODE\BCCD
   2. VSCODE를 실행
   3. 터미널을 열고
@@ -26,7 +26,10 @@ YOLOV5
   7. git clone으로 yolov5를 내려 받습니다.
   8. move to 'yolov5' Folder
   9. pip install -r requirements.txt
+
+## 2. 데이터세트 준비 과정
   10. myGlob.py를 만듭니다. 내용은 colab에 있던 2개의 셀을 복사해오고 폴더 위치만 맞춥니다.
+
 ```
 # C:\Users\WSU\Desktop\CODE\BCCD\yolov5\dataSet\myGlob.py
 # 여기서 주의할 것은 데이터 셋의 위치를 잘 맞추기
