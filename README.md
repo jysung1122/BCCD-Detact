@@ -138,3 +138,14 @@ head: [
      7. name: 결과 확인을 위한 이름
      8. cache: 빠른 학습을 위한 이미지 캐시 사용
      ```
+### 학습 코드
+  1. 주의할 점은 역시 폴더 경로
+  2. ./dataSet/data.yaml 부분만 수정
+  3. 참고로 yolov5s.yaml 보다 성능 좋은 모델을 원하면 5m 5l를 사용해도 됨
+
+
+     ```
+     (yolov5) c:\Users\WSU\Desktop\CODE\BCCD>cd yolov5
+
+    (yolov5) c:\Users\WSU\Desktop\CODE\BCCD\yolov5>python train.py --img 512 --batch 16 --epochs 100 --data ./dataSet/data.yaml --cfg ./models/custom_yolov5s.yaml --weights '' --name _result --cache    
+     ```
