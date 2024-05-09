@@ -149,3 +149,8 @@ head: [
 
     (yolov5) c:\Users\WSU\Desktop\CODE\BCCD\yolov5>python train.py --img 512 --batch 16 --epochs 100 --data ./dataSet/data.yaml --cfg ./models/custom_yolov5s.yaml --weights '' --name _result --cache    
      ```
+### 학습이 완료되면
+  1. best.pt를 bccdModel.pt라는 이름으로 어딘가에 저장해 두고
+  2. 향후 Inference나 Application을 만들때 사용합니다.
+
+# 끝
